@@ -1,0 +1,7 @@
+Trang web sử dụng các kỹ thuật SEO như sau:
+-Sử dụng <meta name="description"> để miêu tả từng trang web liên quan cùng nội dung của chúng.
+-Sử dụng <link rel="canonical" href="https://akarivince.github.io/project4/Project4.html"/> để hướng dẫn 
+Google biết trang Project4.html là trang quan trọng trong khi tìm kiếm, hạn chế trong việc search bị lặp
+khi có nội dung trùng lặp.
+-Sử dụng thẻ <title> các tag <h1> đến <h6> để nổi bật nội dung chính của trang web.
+-Các img có thuộc tính alt đề cập đến nội dung của thẻ.
