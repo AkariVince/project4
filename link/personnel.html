@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="../stylesheetsmall.css">
+    <link rel="stylesheet" media="screen and (min-width: 768px)" href="../stylesheetamza.css">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Atma:wght@300&family=Satisfy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&display=swap" rel="stylesheet">
+
+    <title>Personnel</title>
+</head>
+
+<body>
+    <div class= "top-div-mobile">
+        <div class= "nag-bar">
+            <div class="on-sale"><a href="https://www.sonymusicshop.jp/m/item/itemShw.php?associate=SMO&cd=VVCL000001409"><b>Địa Điểm Mua</b></a></div>
+            <div class="personnel"><a href="personnel.html"><b>Ca Sĩ</b></a></div>
+            <div class="home"><a href="../Project4.html"><b>Trang Chủ</b></a></div>
+        </div>
+    </div>
+    <div class= "top-div">
+        <div class= "mute"><img src="https://pbs.twimg.com/profile_images/1135074221640437761/vtX0Km1z_400x400.jpg" width=100% height=70></div>
+        <div class = "top-marquee">
+        <marquee scrollamount=4> Remember - SawanoHiroyuki[nZk]</marquee>
+        </div>
+        <div class= "nag-bar">
+        <div class="on-sale"><a href="https://www.sonymusicshop.jp/m/item/itemShw.php?associate=SMO&cd=VVCL000001409"><b>Địa Điểm Mua</b></a></div>
+        <div class="personnel"><a href="personnel.html"><b>Ca Sĩ</b></a></div>
+            <div class="home"><a href="../Project4.html"><b>Trang Chủ</b></a></div>
+        
+        </div>
+    </div>
+    
+    <div class="body-div-mobile">
+        <div>
+         <div><h3 class="title">Những ca sĩ tham gia</h3></div>
+        <div class="vocal">
+            <div class="numbertext">1 / 9</div>
+                <img class="slide" src="../img/1.jpg">
+            <div class="text">「Glory -into the RM-」<br>SUGIZO</div>
+        </div>
+
+        <div class="vocal">
+            <div class="numbertext">2 / 9</div>
+            <img class="slide" src="../img/2.jpg">
+            <div class="text">「EVERCHiLD」<br>Akihito Okano（ポルノグラフィティ)</div>
+        </div>
+
+        <div class="vocal">
+            <div class="numbertext">3 / 9</div>
+            <img class="slide" src="../img/3.jpg">
+            <div class="text">「never gonna change」<br>スキマスイッチ</div>
+        </div>
+        <div class="vocal">
+            <div class="numbertext">4 / 9</div>
+            <img class="slide" src="../img/4.jpg" >
+            <div class="text" style ="color: #4A114D";>「narrative」<br>LiSA</div>
+        </div>
+        <div class="vocal">
+            <div class="numbertext">5 / 9</div>
+            <img class="slide" src="../img/5.jpg">
+            <div class="text">「i-mage」<br>Aimer</div>
+        </div>
+        <div class="vocal">
+            <div class="numbertext">6 / 9</div>
+            <img class="slide" src="../img/6.jpg">
+            <div class="text">「NOISEofRAIN」<br>Takanori Nishikawa</div>
+        </div>
+        <div class="vocal">
+            <div class="numbertext">7 / 9</div>
+            <img class="slide" src="../img/7.jpg">
+            <div class="text">「Binary Star」<br>Uru</div>
+        </div>
+        <div class="vocal">
+            <div class="numbertext">8 / 9</div>
+            <img class="slide" src="../img/8.jpg">
+            <div class="text">「ME＆CREED ＜nZkv＞」<br>さユり</div>
+        </div>
+        <div class="vocal">
+            <div class="numbertext">9 / 9</div>
+            <img class="slide" src="../img/9.jpg">
+            <div class="text">「Unti-L」<br>ASCA</div>
+        </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+<br>
+
+
+    <div style="text-align:center";>
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+    <span class="dot" onclick="currentSlide(6)"></span>
+    <span class="dot" onclick="currentSlide(7)"></span>
+    <span class="dot" onclick="currentSlide(8)"></span>
+    <span class="dot" onclick="currentSlide(9)"></span>
+    </div>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("vocal");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1;}    
+  if (n < 1) {slideIndex = slides.length;}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+ </script>
+</div>
+  
+    <div class= "body-div">
+        <div class="left-bar">
+            <div style="margin-bottom:70px;">
+                <div class="rem-img">
+                     <img id="remember" src="https://upload.wikimedia.org/wikipedia/en/9/93/REMEMBER_Hiroyuki_Sawano.jpg">
+                </div>
+                <div class="rem-text">
+                    <h5>R∃/MEMBER</h5>
+                    <p>SawanoHiroyuki[nZk]</p>
+                </div>
+            </div>
+            <div id="hiro-desktop">
+                <div class="hiro-img">
+                <img id="hiro" src="https://upload.wikimedia.org/wikipedia/commons/b/b8/Hiroyuki_Sawano2019.jpg">
+                </div>
+                <div class="hiro-text-desktop">
+                <h4 style="color: #2F827D"><b>Hiroyuki Sawano</b></h4>
+                <p style="color: #6F8382; word-break: keep-all;">Hiroyuki Sawano (澤野 弘之, Sawano Hiroyuki, sinh năm September 12, 1980) là một nhà soạn nhạc, nhà cải biên, nhạc sĩ, người viết lời và nghệ sĩ piano người Nhật Bản được biết đến nhiều nhất với tác phẩm của mình trên nhiều bộ anime, phim truyền hình và điện ảnh.</p>
+                </div>
+            </div>
+            <div id="hiro-tablet">
+                <div class="hiro-img-tablet">
+                <img id="hiro" src="https://upload.wikimedia.org/wikipedia/commons/b/b8/Hiroyuki_Sawano2019.jpg">
+                </div>
+                <div class="hiro-text-tablet">
+                <h4 style="color: #2F827D"><b>Hiroyuki Sawano</b></h4>
+                <p style="color: #6F8382; word-break: keep-all;">Hiroyuki Sawano (澤野 弘之, Sawano Hiroyuki, sinh năm September 12, 1980) là một nhà soạn nhạc, nhà cải biên, nhạc sĩ, người viết lời và nghệ sĩ piano người Nhật Bản được biết đến nhiều nhất với tác phẩm của mình trên nhiều bộ anime, phim truyền hình và điện ảnh.</p>
+                </div>
+            </div>
+            <div class="infor ">
+                <div class="link-infor3">
+                    <a href="https://twitter.com/sawano_nzk?lang=en" ><img src="https://1000logos.net/wp-content/uploads/2017/06/Logo-Twitter.jpg" width="50" height="50"></a>
+                </div>
+                <div class="link-infor2">
+                    <a href="https://www.facebook.com/SawanoHiroyuki.nZk" ><img src="https://cdn3.iconfinder.com/data/icons/capsocial-round/500/facebook-512.png" width="50" height="50"></a>
+                </div>
+                <div class="link-infor1">
+                    <a href="https://en.wikipedia.org/wiki/Hiroyuki_Sawano" ><img src="https://image.flaticon.com/icons/png/512/49/49360.png" width="50" height="50"></a>
+                </div>
+            </div>
+        </div>
+        
+
+  
+  <div class="right-side">
+   <div>
+     <div><h3 class="title">Những ca sĩ tham gia</h3></div>
+        <div class="vocal1">
+            <div class="numbertext1">1 / 9</div>
+                <img class="slide1" src="../img/1.jpg">
+            <div class="text1">「Glory -into the RM-」<br>SUGIZO</div>
+        </div>
+
+        <div class="vocal1">
+            <div class="numbertext1">2 / 9</div>
+            <img class="slide1" src="../img/2.jpg">
+            <div class="text1">「EVERCHiLD」<br>Akihito Okano（ポルノグラフィティ)</div>
+        </div>
+
+        <div class="vocal1">
+            <div class="numbertext1">3 / 9</div>
+            <img class="slide1" src="../img/3.jpg">
+            <div class="text1">「never gonna change」<br>スキマスイッチ</div>
+        </div>
+        <div class="vocal1">
+            <div class="numbertext1">4 / 9</div>
+            <img class="slide1" src="../img/4.jpg" >
+            <div class="text1" style ="color: #4A114D";>「narrative」<br>LiSA</div>
+        </div>
+        <div class="vocal1">
+            <div class="numbertext1">5 / 9</div>
+            <img class="slide1" src="../img/5.jpg">
+            <div class="text1">「i-mage」<br>Aimer</div>
+        </div>
+        <div class="vocal1">
+            <div class="numbertext1">6 / 9</div>
+            <img class="slide1" src="../img/6.jpg">
+            <div class="text1">「NOISEofRAIN」<br>Takanori Nishikawa</div>
+        </div>
+        <div class="vocal1">
+            <div class="numbertext1">7 / 9</div>
+            <img class="slide1" src="../img/7.jpg">
+            <div class="text1">「Binary Star」<br>Uru</div>
+        </div>
+        <div class="vocal1">
+            <div class="numbertext1">8 / 9</div>
+            <img class="slide1" src="../img/8.jpg">
+            <div class="text1">「ME＆CREED ＜nZkv＞」<br>さユり</div>
+        </div>
+        <div class="vocal1">
+            <div class="numbertext1">9 / 9</div>
+            <img class="slide1" src="../img/9.jpg">
+            <div class="text1">「Unti-L」<br>ASCA</div>
+        </div>
+            <a class="prev1" onclick="plusSlides1(-1)">&#10094;</a>
+            <a class="next1" onclick="plusSlides1(1)">&#10095;</a>
+    </div>
+<br>
+
+
+    <div style="text-align:center";>
+    <span class="dot1" onclick="currentSlide1(1)"></span>
+    <span class="dot1" onclick="currentSlide1(2)"></span>
+    <span class="dot1" onclick="currentSlide1(3)"></span>
+    <span class="dot1" onclick="currentSlide1(4)"></span>
+    <span class="dot1" onclick="currentSlide1(5)"></span>
+    <span class="dot1" onclick="currentSlide1(6)"></span>
+    <span class="dot1" onclick="currentSlide1(7)"></span>
+    <span class="dot1" onclick="currentSlide1(8)"></span>
+    <span class="dot1" onclick="currentSlide1(9)"></span>
+    </div>
+<script>
+var slideIndex1 = 1;
+showSlides1(slideIndex1);
+
+function plusSlides1(n) {
+  showSlides1(slideIndex1 += n);
+}
+
+function currentSlide1(n) {
+  showSlides1(slideIndex1 = n);
+}
+
+function showSlides1(n) {
+  var i;
+  var slides1 = document.getElementsByClassName("vocal1");
+  var dots1 = document.getElementsByClassName("dot1");
+  if (n > slides1.length) {slideIndex1 = 1;}    
+  if (n < 1) {slideIndex1 = slides1.length;}
+  for (i = 0; i < slides1.length; i++) {
+      slides1[i].style.display = "none";  
+  }
+  for (i = 0; i < dots1.length; i++) {
+      dots1[i].className = dots1[i].className.replace(" active", "");
+  }
+  slides1[slideIndex1-1].style.display = "block";  
+  dots1[slideIndex1-1].className += " active";
+}
+ </script>
+ </div>
+ 
+ 
+</body>
+<footer></footer>
+</html>

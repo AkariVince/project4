@@ -1,0 +1,209 @@
+* {
+  box-sizing: border-box;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+  a:link {color: #E56868;
+  text-decoration: none;
+}
+
+a:visited { color: #E56868;
+  text-decoration: none;
+}
+a:hover { color:#493FD7;
+  text-decoration: underline;
+}
+
+a:active { color: #E56868;
+  text-decoration: underline;
+}
+body{
+  background-image: url('https://i.ytimg.com/vi/B12FGr0GQ8g/maxresdefault.jpg');
+  background-position: center;
+  background-repeat: repeat-y;
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0.005); 
+  backdrop-filter: url(filters.svg#filter) blur(4px) saturate(150%);
+  height: auto;
+  width: 98%;
+}
+body, html {
+    
+  height: 100%;
+  margin: 0;
+}
+.top-div {display: none;}
+.body-div{display: none;}
+.top-div-mobile {
+     width: 100%;
+  display:inline-block;
+  background: rgba(255, 255, 255, 0.005); 
+  backdrop-filter: url(filters.svg#filter) blur(4px) saturate(150%);
+  margin-bottom: 8%;
+}
+.personnel {font-family: 'Mulish', sans-serif;
+        color: #6F8382;
+       float:right;
+       font-size: 120%;
+       width:33%;
+       text-align: center;
+       padding-top:30px;}
+.home {font-family: 'Mulish', sans-serif;
+        color: #6F8382;
+       float:right;
+       font-size: 120%;
+       width:33%;
+       text-align: center;
+       padding-top:30px;}
+.on-sale {font-family: 'Mulish', sans-serif;
+color: #6F8382;
+       float:right;
+       padding-top:30px;
+       font-size: 120%;
+       width:33%;
+       text-align: center;}
+       
+.rem-img  {width: 100%;
+  }
+#remember {display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;}
+.rem-text {
+  line-height: 30%;
+  font-size: 150%;
+  text-align: center;
+  color:#64E7E0;
+  font-family: 'Atma', cursive;
+}
+#video-rem {display: block;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  margin-bottom:50px;}
+.list-track {
+  font-family: 'Atma', cursive;
+  color: white;
+  line-height: 120%;
+  padding-left: 70px;
+  font-size: 120%;}
+.list-track a:link {color: #C0A3C2;
+  text-decoration: none;
+}
+
+.list-track a:visited { color: #C0A3C2;
+  text-decoration: none;
+}
+.list-track a:hover { color:#493FD7;
+  text-decoration: underline;
+}
+
+.list-track a:active { color: #C0A3C2;
+  text-decoration: underline;
+}
+  .link-infor2  {display: inline-block;
+    margin-top: 0px;
+  float: right;
+    width: 25%; }
+    .link-infor1  {display: inline-block;
+    margin-top: 0;
+  float: right;
+    width: 25%; }
+    .link-infor3  {display: inline-block;
+    margin-top: 0px;
+  float: right;
+    width: 25%; }
+    .infor {width: 100%;
+    display: inline-block;
+    padding-bottom: 30px;}
+.lyric {
+    padding-top: 10px;
+    margin:30px;
+    background: rgba(255, 255, 255, 0.2); 
+  backdrop-filter: url(filters.svg#filter) blur(4px) saturate(150%);
+  font-size: 130%;
+padding-left: 5%;
+font-family: 'Atma', cursive;
+color: white;}
+.body-div-mobile {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.vocal {
+  display: none;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+.text {
+  color:#EFBBF2;
+  font-family: 'Atma', cursive;
+  font-size: 120%;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 10%;
+  width: 100%;
+  text-align: center;
+}
+
+
+.numbertext {
+  color: #EFBBF2;
+  font-size: 120%;
+  
+  padding-left: 2%;
+  position: absolute;
+  
+}
+
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+.slide {display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+  width: 80%;
+   height:auto;}
+.title {text-align: center;
+color:#EFBBF2;
+  font-family: 'Atma', cursive;
+  font-size: 150%;
+}
